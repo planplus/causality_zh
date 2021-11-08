@@ -1,4 +1,4 @@
-![logo](_media/logo.svg)
+<img src="_media/icon.svg" height="200" alt="logo" align=center />
 
 # Causality 中文翻译
 
@@ -9,4 +9,4 @@
 - 肖天昂 (brianxiao@trussan.com)
 
 [GitHub](https://github.com/planplus/causality_zh)
-[Get Started](/README)
+[开始阅读](/README)
