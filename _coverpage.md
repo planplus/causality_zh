@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](_media/logo.svg)
 
 # Causality 中文翻译
 
