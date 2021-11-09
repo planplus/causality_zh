@@ -1,5 +1,5 @@
 * [首页](/README.md)
 * [第一章]()
-* [第二章](/capter02/0.Preface.md)
-  * [前言](/capter02/0.Preface.md)
-  * [2.1 导论-基本直觉](/capter02/1.Introduction.md)
+* [第二章](/chapter02/0.Preface.md)
+  * [2.1 导论-基本直觉](/chapter02/1.Introduction.md)
+  * [2.2 因果发现框架](/chapter02/2.The Causal Discovery Framework.md)
