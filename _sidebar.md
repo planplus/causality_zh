@@ -1,5 +1,7 @@
 * [首页](/README.md)
 * [第一章]()
+  * [重点公式证明](/chapter01/proof.md)
+  * [cheatsheet](/chapter01/cheatsheet.md)
 * [第二章](/chapter02/0.Preface.md)
   * [2.1 导论-基本直觉](/chapter02/1.Introduction.md)
   * [2.2 因果发现框架](/chapter02/2.The_Causal_Discovery_Framework.md)
