@@ -1,5 +1,13 @@
 ## 重要公式证明
 
+### 符号说明
+
+$\mathit{V = \{V_1, V_2, \dots\}}$ 表示变量的有限集合。
+
+$\mathit{X, Y, Z, W}$这种大写字母表示$\mathit{V}$中变量的子集。可以认为$\mathit{X, Y, Z, W \in V}$
+
+$\mathit{x, y, z, w}$这种小写字母表示$\mathit{X, Y, Z, W}$集合中的任一成员。可以认为$\mathit{\forall x \in X}$
+
 ### 条件独立关系的性质
 
 
@@ -45,6 +53,22 @@
 </div>
 <p></p>
 
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">证明:</h4>
+    <p>$$\tag{1}\mathit{(X {\perp\!\!\!\perp} YW \mid Z) \iff P(x \mid y,z,w)=P(x \mid z)}$$</p>
+    <p>$$\tag{2}\mathit{(X {\perp\!\!\!\perp} Y \mid Z) \iff P(x \mid y,z)=P(x \mid z)}$$</p>
+	<p>根据公式(1.11)：$\mathit{P(A \mid K)} = \displaystyle\mathit{\sum_{i} P(A \mid B_i, K)P(B_i \mid K)}$</p>
+    <p>$$\tag{3}\mathit{P(x \mid y,z) = \sum_{w \in W} P(x \mid y,z,w)P(w \mid y,z)}$$</p>
+    <p>根据1式，$\mathit{P(x \mid y,z,w)=P(x \mid z)}$，带入3式得：
+        $$\tag{4}\mathit{P(x \mid y,z) = \sum_{w \in W} P(x \mid z)P(w \mid y,z) = P(x \mid z) \sum_{w \in W}P(w \mid y,z)}$$
+    </p>
+    <p>
+        因为对任意$\mathit{\forall w \in W}$的情况都取到了，所以$\displaystyle\mathit{\sum_{w \in W}P(w \mid y,z)}$求和的结果就是1：
+        $$\therefore \tag{5}\mathit{P(x \mid y,z) = P(x \mid z)} \quad \blacksquare$$
+    </p>
+</div>
+<p></p>
+
 #### 弱连性：$\mathit{(X {\perp\!\!\!\perp} Y W\mid Z) \implies (X {\perp\!\!\!\perp} Y \mid ZW)}$
 
 <div class="alert alert-success" role="alert">
@@ -69,6 +93,22 @@
         将7式方框部分交换位置，并于3式联立，即可得到:
         $$\tag{8}\mathit{\boxed{\frac {P(x,z,w)} {P(z,w)}} = \frac {P(x,z)} {P(z)}} = \boxed{\frac {P(x,y,z,w)} {P(y,z,w)}}$$
         其中方框部分就是4式。$\blacksquare$
+    </p>
+</div>
+<p></p>
+
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">证明:</h4>
+    <p>$$\tag{1}\mathit{(X {\perp\!\!\!\perp} YW \mid Z) \iff P(x \mid y,z,w)=P(x \mid z)}$$</p>
+    <p>$$\tag{2}\mathit{(X {\perp\!\!\!\perp} Y \mid ZW) \iff P(x \mid y,z,w)=P(x \mid z,w)}$$</p>
+	<p>根据公式(1.11)：</p>
+    <p>$$\tag{3}\mathit{P(x \mid z,w) = \sum_{y \in Y} P(x \mid y,z,w)P(y \mid z,w)}$$</p>
+    <p>根据1式$\mathit{P(x \mid y,z,w)=P(x \mid z)}$，带入3式得：
+        $$\tag{4}\mathit{P(x \mid z,w) = \sum_{y \in Y} P(x \mid z)P(y \mid z,w) = P(x \mid z) \sum_{y \in Y} P(y \mid z,w)}$$
+    </p>
+    <p>
+        因为对任意$\mathit{\forall y \in Y}$的情况都取到了，所以$\displaystyle\mathit{\sum_{y \in Y} {P(y \mid z,w)}} = 1$，
+        $$\therefore \mathit{P(x \mid z,w) = P(x \mid z) = P(x \mid y,z,w)} \quad \blacksquare$$
     </p>
 </div>
 <p></p>
