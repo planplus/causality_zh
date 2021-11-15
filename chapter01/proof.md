@@ -123,7 +123,7 @@ $\mathit{x, y, z, w}$这种小写字母表示$\mathit{X, Y, Z, W}$集合中的�
     <p>要证明：$$\tag{3}\mathit{(X {\perp\!\!\!\perp} YW \mid Z) \iff P(x \mid y,z,w)=P(x \mid z)}$$</p>
 	<p>1式左边和2式右边相同，两式一合并：</p>
     <p>$$\tag{4}\mathit{P(x \mid y,z,w) = P(x \mid z)}$$</p>
-    <p>4式就是要证明得3式。$\blacksquare$</p>
+    <p>4式就是要证明的3式。$\blacksquare$</p>
 </div>
 <p></p>
 

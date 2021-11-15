@@ -46,3 +46,27 @@ $$\tag{1.7}\mathit{P(A) + P(\lnot A) = 1}$$
     <p>$\because \mathit{A \lor \lnot A = \Omega}$</p>
 	<p>$\therefore \mathit{P(A) + P(\lnot A) = P(A \lor \lnot A) = P(\Omega) = 1}\quad \blacksquare$</p>
 </div>
+
+
+### 贝叶斯定理
+
+$\mathit{P(A \mid B) }$ 表示在假设 ***B*** 已知的情况下， ***A*** 发生的信念。
+
+经典统计学倾向于用联合概率来定义条件概率：
+
+$$\tag{1.8}\mathit{P(A \mid B) = \frac {P(A, B)} {P(B)}}$$
+
+贝叶斯派认为条件概率比联合事件更加本质，更接近人类的思维方式。在贝叶斯视角下，$B$ 是背景知识，$A \mid B$ 表示在特定背景B下的A事件。因此经验知识往往会被编码进条件概率表达中，所以联合事件的信念通过下面的表达式表示：
+
+$$\tag{1.9}\mathit{{P(A, B)} = P(A \mid B)P(B)}$$
+
+结合**公式1.5**，A事件的概率可以用$A$ 在 $B$ 上所有不重不漏事件$B_i$的条件概率表示：
+
+$$\tag{1.10}\mathit{P(A) = \sum_i P(A, B_i) = \sum_i P(A \mid B_i)P(B_i)}$$
+
+**需要再次强调的是，公式1.10始终应用在某个更大的背景$\mathit{K}$下，其中$\mathit{K}$表示通识的假设。** 公式1.10其实是公式1.11的简写形式：
+
+$$\tag{1.11}\mathit{P(A \mid K) = \sum_i P(A \mid B_i, K)P(B_i \mid K)}$$
+
+### 链式法则
+
