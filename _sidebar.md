@@ -1,5 +1,6 @@
 * [首页](/README.md)
 * [第一章]()
+  * [概率论导论](/chapter01/1.Introduction_to_Probability_Theory.md)
   * [重点公式证明](/chapter01/proof.md)
   * [cheatsheet](/chapter01/cheatsheet.md)
 * [第二章](/chapter02/0.Preface.md)
