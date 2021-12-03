@@ -10,6 +10,26 @@
 
 
 
+### 常用 $\LaTeX$ 符号
+
+| 符号                 | LaTex表示            | 符号                               | LaTex表示                          | 符号                        | LaTex表示                     |
+| -------------------- | -------------------- | ---------------------------------- | ---------------------------------- | --------------------------- | ----------------------------- |
+| ${\perp\!\!\!\perp}$ | `{\perp\!\!\!\perp}` | $\mathrlap{\,/}{\perp\!\!\!\perp}$ | `\mathrlap{\,/}{\perp\!\!\!\perp}` | $\cancel{\perp\!\!\!\perp}$ | `$\cancel{\perp\!\!\!\perp}$` |
+| $\perp$              | `\perp`              | $\mathrlap{\,/}{\perp}$            | `\mathrlap{\,/}{\perp}`            | $\cancel{\perp}$            | `\cancel{\perp}`              |
+| $\implies$           | `\implies`           | $\impliedby$                       | `\impliedby`                       | $\iff$                      | `\iff`                        |
+| $\larr$              | `\larr`              | $\rarr$                            | `\rarr`                            | $\harr$                     | `\harr`                       |
+| $\land$              | `\land`              | $\lor$                             | `\lor`                             | $\lnot$                     | `\lnot`                       |
+| $\cap$               | `\cap`               | $\cup$                             | `\cup`                             | $\mid$                      | `\mid`                        |
+| $\sum$               | `\sum`               | $\prod$                            | `\prod`                            | $\int$                      | `\int`                        |
+| $\in$                | `\in`                | $\notin$                           | `\notin`                           | $\because$                  | `\because`                    |
+| $\exists$            | `\exists`            | $\nexists$                         | `\nexists`                         | $\therefore$                | `\therefore`                  |
+| $\subset$            | `\subset`            | $\supset$                          | `\supset`                          | $\forall$                   | `\forall`                     |
+| $\sube$              | `\sube`              | $\supe$                            | `\supe`                            | $\triangleq$                | `\triangleq`                  |
+| $P_a$                | `P_a`                | $x^2$                              | `x^2`                              | $\frac {a}{b}$              | `\frac {a}{b}`                |
+| $\hat{\theta}$       | `\hat{\theta}`       | $\infin$                           | `\infin`                           | $\empty$                    | `\empty`                      |
+
+
+
 ### 概率计算3公理
 
 * $$\tag{1.1} \mathit{0 \le P(A) \le1}$$
