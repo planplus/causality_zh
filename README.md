@@ -1,4 +1,4 @@
-# "Causality: Models, Reasoning, and Inference"中文翻译
+# "Causality: Models, Reasoning, and Inference"中文翻译及读书笔记
 
 ![cover](./_media/cover.jpg)
 
