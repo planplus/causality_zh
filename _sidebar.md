@@ -17,3 +17,4 @@
   * [2.7 推断因果关系的局部准则](/chapter02/7.Local_Criteria_for_Inferring_Causal_Relations.md)
   * [2.8 非时间性因果关系与统计性时间](/chapter02/8.Nontemporal_Causation_And_Statistical_Time.md)
   * [2.9 结论](/chapter02/9.Conclusions.md)
+  * [基本概念](/chapter02/important_concept.md)
