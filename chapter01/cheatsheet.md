@@ -8,8 +8,6 @@
 | $\lor$           | $\cup$                  | \|       | union \| or                | 并 \| 或                     |
 | $\lnot$          | $\lnot$ 、 - 、~、$S^c$ | !        | not                        | 补 \| 非                     |
 
-
-
 ### 常用 $\LaTeX$ 符号
 
 | 符号                 | LaTex表示            | 符号                               | LaTex表示                          | 符号                        | LaTex表示                     |
@@ -28,8 +26,6 @@
 | $P_a$                | `P_a`                | $x^2$                              | `x^2`                              | $\frac {a}{b}$              | `\frac {a}{b}`                |
 | $\hat{\theta}$       | `\hat{\theta}`       | $\infin$                           | `\infin`                           | $\empty$                    | `\empty`                      |
 
-
-
 ### 概率计算3公理
 
 * $$\tag{1.1} \mathit{0 \le P(A) \le1}$$
@@ -39,7 +35,7 @@
 
 公理3表明任何事件集合的信念等于其非相交部分信念之和。因为对任意事件A，都可以写成 $(A \land B)$ 与 $(A \land \lnot B)$ 之和，将他们组合起来就是
 
-$$\tag{1.4}\mathit{P(A) = P(A, B) + P(A, \lnot B)}$$ 
+$$\tag{1.4}\mathit{P(A) = P(A, B) + P(A, \lnot B)}$$
 
 <div class="alert alert-success" role="alert">
   <h4 class="alert-heading">(1.4)证明:</h4>
@@ -47,7 +43,6 @@ $$\tag{1.4}\mathit{P(A) = P(A, B) + P(A, \lnot B)}$$
     <p>$\mathit{P(A \land (B \lor \lnot B)) = P(A, B) + P(A, \lnot B)}$</p>
 	<p>因为 $B \lor \lnot B \iff 1$ (排中律)，$A \land 1 \iff A$(同一律)，所以 $\mathit{P(A) = P(A, B) + P(A, \lnot B)} \quad \blacksquare$</p>
 </div>
-
 
 ### 全概率定律
 
@@ -66,7 +61,6 @@ $$\tag{1.7}\mathit{P(A) + P(\lnot A) = 1}$$
     <p>$\because \mathit{A \lor \lnot A = \Omega}$</p>
 	<p>$\therefore \mathit{P(A) + P(\lnot A) = P(A \lor \lnot A) = P(\Omega) = 1}\quad \blacksquare$</p>
 </div>
-
 
 ### 贝叶斯定理
 
