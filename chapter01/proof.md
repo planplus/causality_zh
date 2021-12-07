@@ -10,7 +10,7 @@ $\mathit{x, y, z, w}$这种小写字母表示$\mathit{X, Y, Z, W}$集合中的�
 
 ### 条件独立关系的性质
 
-#### 对称性：$\mathit{(X {\perp\!\!\!\perp} Y \mid Z) \implies (X {\perp\!\!\!\perp} Y \mid Z)}$
+#### 对称性：$\mathit{(X {\perp\!\!\!perp} Y \mid Z) \implies (X {\perp\!\!\!\perp} Y \mid Z)}$
 
 <div class="alert alert-success" role="alert">
   <h4 class="alert-heading">证明:</h4>
