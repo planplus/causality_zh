@@ -1,3 +1,4 @@
+
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -15,3 +16,24 @@ _book
 *.mobi
 *.pdf
 .idea
+
+.Archive/
+.markeditor/
+!.metion/
+.metion/*
+!.metion/*_sort.config
+.markdown/
+.sync/
+.idea/
+.DS_STORE
+Thumbs.db*
+/.posts_info.json
+/posts_info.json
+/.git_settings.json
+/git_settings.json
+/.ios_file_manager_status*.json
+/.farbox_token.*
+/.farbox_auto_sync.*
+/__wechat.json
+/*.sqlite3
+.db/
