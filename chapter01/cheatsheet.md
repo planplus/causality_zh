@@ -26,6 +26,11 @@
 | $P_a$                | `P_a`                | $x^2$                              | `x^2`                              | $\frac {a}{b}$              | `\frac {a}{b}`                |
 | $\hat{\theta}$       | `\hat{\theta}`       | $\infin$                           | `\infin`                           | $\empty$                    | `\empty`                      |
 
+$$
+\stackrel{M}{\cong}
+$$
+
+
 ### 概率计算3公理
 
 * $$\tag{1.1} \mathit{0 \le P(A) \le1}$$
