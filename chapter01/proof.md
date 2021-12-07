@@ -156,8 +156,3 @@ $$
     </p>
     <p>9式和2式一合并，即可得：$\mathit{P(x \mid y,z,w)=P(x \mid z)}$，这就是我们要证明的3式。$\blacksquare$</p>
 </div>
-
-$$
-
-$$
-
