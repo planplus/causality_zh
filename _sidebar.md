@@ -3,6 +3,7 @@
   * [1.1 概率论导论](/chapter01/1.Introduction_to_Probability_Theory.md)
   * [1.2 图与概率](/chapter01/2.Graphs_And_Probabilities.md) 
   * [1.3 因果贝叶斯网络](/chapter01/3.Causal_Bayesian_Networks.md)
+  * [1.3 性质证明](chapter01/3.性质证明.md)
   * [1.4 函数因果模型](/chapter01/4.Functional_Causal_Models.md)
   * [1.5 因果术语与统计术语](/chapter01/5.Causal_Versus_Statistical_Terminology.md)
   * [重点公式证明](/chapter01/proof.md)
