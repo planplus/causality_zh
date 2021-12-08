@@ -17,11 +17,10 @@ _book
 *.pdf
 .idea
 
+.metion/
+.configs/
 .Archive/
 .markeditor/
-!.metion/
-.metion/*
-!.metion/*_sort.config
 .markdown/
 .sync/
 .idea/
