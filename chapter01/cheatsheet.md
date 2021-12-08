@@ -4,7 +4,7 @@
 
 | 概率             | 集合                    | 程序设计 | 英文表达                   | 中文表达                     |
 | ---------------- | ----------------------- | -------- | -------------------------- | ---------------------------- |
-| $\land$、P(A, B) | $\cap$                  | &        | join \| and \| conjunction | 交 \| 与 \| 且 \| 联合(概率) |
+| $$\land$$、P(A, B) | $\cap$                  | &        | join \| and \| conjunction | 交 \| 与 \| 且 \| 联合(概率) |
 | $\lor$           | $\cup$                  | \|       | union \| or                | 并 \| 或                     |
 | $\lnot$          | $\lnot$ 、 - 、~、$S^c$ | !        | not                        | 补 \| 非                     |
 
@@ -25,16 +25,12 @@
 | $\sube$              | `\sube`              | $\supe$                            | `\supe`                            | $\triangleq$                | `\triangleq`                  |
 | $P_a$                | `P_a`                | $x^2$                              | `x^2`                              | $\frac {a}{b}$              | `\frac {a}{b}`                |
 | $\hat{\theta}$       | `\hat{\theta}`       | $\infin$                           | `\infin`                           | $\empty$                    | `\empty`                      |
-
-$$
-\stackrel{M}{\cong}
-$$
+| $\stackrel{M}{\cong}$| `\stackrel{M}{\cong}`|  |  |  |  |
 
 
 ### 概率计算3公理
 
 * $$\tag{1.1} \mathit{0 \le P(A) \le1}$$
-
 * $$\tag{1.2}\mathit{P(确定命题)  = 1} $$
 * $$\tag{1.3}\mathit{P(A\ or\ B) = P(A) + P(B) } \quad A与B互斥$$
 
