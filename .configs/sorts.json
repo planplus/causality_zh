@@ -1,0 +1,20 @@
+{
+  "__positions" : {
+    "chapter02" : 3,
+    "_help" : 4,
+    "chapter01" : 2,
+    "_media" : 1
+  },
+  "" : [
+    "_media",
+    "chapter01",
+    "chapter02",
+    "_help"
+  ],
+  "__raw_positions" : {
+    "chapter01" : 2,
+    "_media" : 1,
+    "_help" : 4,
+    "chapter02" : 3
+  }
+}
