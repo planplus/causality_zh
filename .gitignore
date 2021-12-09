@@ -17,7 +17,6 @@ _book
 *.pdf
 .idea
 
-.metion/
 .configs/
 .Archive/
 .markeditor/
@@ -36,3 +35,7 @@ Thumbs.db*
 /__wechat.json
 /*.sqlite3
 .db/
+
+!.metion/
+.metion/*
+!.metion/*_sort.config
