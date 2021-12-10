@@ -1,8 +1,15 @@
 {
   "__positions" : {
-    "chapter02" : 3,
+    "_media" : 1,
     "_help" : 4,
+    "chapter02" : 3,
+    "chapter01" : 2
+  },
+  "__raw_positions" : {
+    "chapter02" : 3,
     "chapter01" : 2,
+    "chapter3\/序言.md" : 1,
+    "_help" : 4,
     "_media" : 1
   },
   "" : [
@@ -11,10 +18,7 @@
     "chapter02",
     "_help"
   ],
-  "__raw_positions" : {
-    "chapter01" : 2,
-    "_media" : 1,
-    "_help" : 4,
-    "chapter02" : 3
-  }
+  "chapter3" : [
+    "序言.md"
+  ]
 }
