@@ -21,4 +21,3 @@
   * [基本概念](/chapter02/important_concept.md)
   * [PAG简介](/chapter02/introduction_to_PAG.md)
 * [第三章](/chapter03/0.Preface.md)
-* 
