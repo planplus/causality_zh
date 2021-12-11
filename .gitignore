@@ -36,6 +36,6 @@ Thumbs.db*
 /*.sqlite3
 .db/
 
-!.metion/
+.metion/
 .metion/*
-!.metion/*_sort.config
+.metion/*_sort.config
